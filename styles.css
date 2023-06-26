@@ -1,0 +1,150 @@
+styles.css
+
+/* Reset CSS básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos do banner */
+#banner {
+  background-image: url('banner.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#banner h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #eee;
+}
+
+/* Estilos das seções */
+section {
+  padding: 80px 0;
+}
+
+section h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.servico h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.servico p {
+  margin-bottom: 20px;
+}
+
+.projeto {
+  margin-bottom: 30px;
+}
+
+.projeto img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Estilo adicional para o link Home */
+.menu li:first-child a {
+  font-weight: bold;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  #banner {
+    padding: 80px 0;
+  }
+
+  #banner h2 {
+    font-size: 28px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+
+  section h3 {
+    font-size: 20px;
+  }
+
+  .servico h4 {
+    font-size: 18px;
+  }
+}
+
+
+
+
